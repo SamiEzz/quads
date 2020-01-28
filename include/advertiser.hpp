@@ -2,10 +2,13 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 class advertiser {
   std::string advName;
   short int advId;
   short int funds;
+  string targetCat;
 
 public:
   // constructor
