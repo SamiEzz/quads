@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 
+// Categories Defines
+#define NUMBER_OF_CATEGORIES 10
+
 using namespace std;
 
 class categories {
@@ -10,14 +13,15 @@ class categories {
   int *matchingMatrix;
 
 public:
-  // constructor
-  categories(int _numberOfCategories) {
-    numberOfCategories = _numberOfCategories;
+  // Constructor
+  categories() {
+    numberOfCategories = NUMBER_OF_CATEGORIES;
     matchingMatrix = new int[numberOfCategories * numberOfCategories];
   };
+  // Destructor
   ~categories() { delete[] matchingMatrix; };
 
-  // getters
+  // Getters
 
-  // setters
+  // Setters
 };
