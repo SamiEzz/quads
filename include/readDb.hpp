@@ -1,4 +1,7 @@
 #include <string>
+#include <iostream>
+#include "json.hpp"
+
 
 class database {      
     std::string source;       

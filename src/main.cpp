@@ -1,11 +1,13 @@
 #include <iostream>
 #include "readDb.hpp"
 
+using namespace std;
 
 int main(int argc, char const *argv[])
 {
+    
     database db;
     db.setSource("./db/users.json");
-    std::cout << "Source : " << db.getSource() << std::endl;
+    cout << "Source : " << db.getSource() << endl;
     return 0;
 }
