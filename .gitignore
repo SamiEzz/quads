@@ -1,6 +1,0 @@
-# folders
-bin/*
-build/*
-.vscode/*
-# files
-runner
