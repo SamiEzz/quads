@@ -4,10 +4,9 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v1
-    - name: make
-      run: make
+      - uses: actions/checkout@v1
+      - name: make
+        run: cd backend;make
