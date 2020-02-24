@@ -16701,6 +16701,14 @@ legend {
     align-items: center
 }
 
+
+.widget-image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
 .widget-content .widget-content-wrapper {
     display: flex;
     flex: 1;
